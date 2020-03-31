@@ -38,9 +38,17 @@
 	<li><strong>Occupation:</strong> Entrepreneur</li>
 	<li><strong>Technology:</strong><br>
 		<em><strong>Phone</strong></em>: Note Samsung Galaxy 9<br> <em><strong>Laptop</strong></em>: Microsoft Surface laptop 3.<br><em><strong>OS</strong></em>: Windows 10 Pro</li>
-	<li><strong>Attitude/Behavior:</strong>Likes to get her nails and hair done every 3 to 4 weeks, always has to look professional
-		and is always short on time due to her job.</li>
-	<li><strong>Needs/Frustration</strong>:Mackenzie needs to get her nails done and get a hair cut for the weekend, she likes to stay at the comfort
+</ul>
+
+<p><strong>Attitude/Behavior:</strong></p>
+<ul>
+<li>Likes to get her nails and hair done every 3 to 4 weeks, always has to look professional
+	and is always short on time due to her job.</li>
+</ul>
+
+<p><strong>Needs/Frustration</strong></p>
+<ul>
+	<li>Mackenzie needs to get her nails done and get a hair cut for the weekend, she likes to stay at the comfort
 		of her house when doing these things, so Mackenzie needs a good person to go to her location and provide great customer service.</li>
 </ul>
 
