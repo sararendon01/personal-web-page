@@ -27,6 +27,10 @@
 		<br>
 		To have great management and qualifications.
 	</P>
+	<P>Earn a good income in this business.<br>
+		<br>
+		Have affordable prices.
+	</P>
 
 </div>
 <h2>PERSONA</h2>
