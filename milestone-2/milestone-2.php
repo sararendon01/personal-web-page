@@ -28,7 +28,7 @@
 <br>
 <br>
 <h3>Mobile Layout</h3>
-<img src="Windows2.png" alt="Mobile layout of display">
+<img src="Windows2.png" alt="Mobile layout of desktop sites">
 
 </body>
 </html>
