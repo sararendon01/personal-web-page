@@ -14,19 +14,21 @@
 
 <p><strong>Our Services:</strong> In this section I will briefly explain the services that we provide.</p>
 
-<p><strong>About Us:</strong> In this section I want to tell and describe to other people what type of customer service and services we provide.<br>It will also
+<p><strong>About Us:</strong> In this section I want to tell and describe to other people what type of customer service
+	and services we provide.<br>It will also
 	have a button where we can be booked at anytime.</p>
 
-<p><strong>Contact Us:</strong> This will be a simple contact form with my business email, phone number and facebook page.</p>
+<p><strong>Contact Us:</strong> This will be a simple contact form with my business email, phone number and facebook
+	page.</p>
 
 
 <h3>Full Screen Layout</h3>
-<img src="">
+<img src="Window.png" alt="fullscreen layout of Windows">
 
 <br>
 <br>
 <h3>Mobile Layout</h3>
-<>
+<img src="Windows2.png" alt="Mobile layout of display">
 
 </body>
 </html>
