@@ -35,7 +35,7 @@
 <div><img src="mackenzie.jpg" height="563" width="800" alt="Makenzie Smith"/></div>
 
 <ul>
-	<li><strong>Name:</strong>Mackenzie Montiel</li>
+	<li><strong>Name:</strong>Mackenzie Smith</li>
 	<li><strong>Age:</strong> 29</li>
 	<li><strong>Occupation:</strong> Entrepreneur</li>
 	<li><strong>Technology:</strong><br>
