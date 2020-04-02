@@ -23,12 +23,12 @@
 
 
 <h3>Full Screen Layout</h3>
-<img src="Window.png" alt="fullscreen layout of Windows">
+<img src="Window.png" alt="fullscreen layout of Windows" height="800" width="900">
 
 <br>
 <br>
 <h3>Mobile Layout</h3>
-<img src="Windows2.png" alt="Mobile layout of desktop sites">
+<img src="Windows2.png" alt="Mobile layout of desktop sites" height="800" width="900">
 
 </body>
 </html>
