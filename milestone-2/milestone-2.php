@@ -12,7 +12,7 @@
 
 <p><strong>Welcome:</strong> This will be the company logo and the name of the company with a wallpaper beneath.</p>
 
-<p><strong>Our Services:</strong> In this section I will briefly explain the services that we provide.</p>
+<p><strong>Our Services:</strong> In this section I will briefly explain the services that we provide and materials.</p>
 
 <p><strong>About Us:</strong> In this section I want to tell and describe to other people what type of customer service
 	and services we provide.<br>It will also
