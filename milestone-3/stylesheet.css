@@ -1,0 +1,10 @@
+input[type=text],textarea, input[type=email]{
+	border-radius:5px;
+
+
+	width: 100%;
+}
+
+#reset, #send{
+	background-color: #beb8ee;
+}
