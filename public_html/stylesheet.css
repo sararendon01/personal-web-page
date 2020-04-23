@@ -2,9 +2,11 @@ input[type=text],textarea, input[type=email]{
 	border-radius:5px;
 
 
-	width: 100%;
+	width: 150%;
 }
 
 #reset, #send{
-	background-color: #beb8ee;
+	background-color: #a6eeca;
+	width: 50%;
+	text-align: center;
 }

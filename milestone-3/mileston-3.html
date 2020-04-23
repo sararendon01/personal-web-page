@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<body>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -9,7 +10,7 @@
 	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
 
-	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="../public_html/stylesheet.css" rel="stylesheet" type="text/css">
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script crossorigin="anonymous"
@@ -21,11 +22,27 @@
 	<script crossorigin="anonymous"
 			  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!--JQuery, Popper.js, and Bootstrap JS-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+	<!--todo Your JavaScript Form Validator -->
+	<script src="../public_html/js/form-validate.js"></script>
+
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<title>Mobile Beautician</title>
 
 </head>
 
-<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<a class="navbar-brand" href="#">
 	</a>
@@ -157,7 +174,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<h1 class="text-right">Threading</h1>
-				<p class="text-right">a method of hair removal in which unwanted hairs are plucked out by using a twisted cotton thread.
+				<p class="text-right">A method of hair removal in which unwanted hairs are plucked out by using a twisted cotton thread.
 					Threading is an ancient hair removal technique that uses 100% cotton thread to remove unwanted facial hair. In threading,
 					a thin cotton thread is doubled, then twisted. It is then rolled over areas of unwanted hair, plucking the hair at the follicle level.
 				</p>
@@ -206,10 +223,13 @@
 	</div>
 </div>
 
+
+
+<title>Contact form</title>
 <section>
 	<div class="container"><h2>Contact</h2>
 		<div class="row d-flex align-items-center" >
-			<form>
+			<form action="../public_html/php/mailer.php" id="my-contact-form" method="POST">
 				<div class="py-2">
 					<input type="text" name="name" id="name" placeholder="Name"/>
 				</div>
@@ -222,10 +242,22 @@
 				<div class="py-2">
 					<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="Message"></textarea>
 				</div>
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="6LfhYuwUAAAAAAZw4CCDiXTNIfg1PU36pdYG2iWV"></div>
+
 				<button id="reset" type="reset">Reset</button>
 				<button id="send" type="submit">Send!</button>
 			</form>
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</div>
+
+
+
 	</div>
 </section>
 </body>
