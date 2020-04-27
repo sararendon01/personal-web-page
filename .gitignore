@@ -1,4 +1,4 @@
 .DS_Store
 /.idea
-/public_html/php/vendor
-/public_html/php/mail-config.php
+/php/vendor
+/php/mail-config.php
