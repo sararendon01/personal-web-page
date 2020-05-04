@@ -19,4 +19,4 @@ COPY --from=vendor /app/vendor/ /app/public/vendor
 
 COPY . /app/public
 
-EXPOSE 80
+EXPOSE 8
